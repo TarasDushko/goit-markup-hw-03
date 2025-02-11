@@ -8,14 +8,30 @@ a{
     text-decoration: none;
 }
 
-ul,li{
+ul, li{
     list-style-type: none;
 }
 
 button{
     cursor: pointer;
 }
+
+p, ul, ol, h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px
+}
 /*#region header */
+.page-header {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
 .logo 
 {
     font-family: "Raleway", sans-serif;
