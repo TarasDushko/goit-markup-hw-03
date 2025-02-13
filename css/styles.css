@@ -217,7 +217,12 @@ align-items: center;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
+}
+
+.item-descr
+{
+    calc((100% - 72px) / 4);
 }
 
 .descr-content
@@ -233,6 +238,7 @@ align-items: center;
 .team
 {
    background-color:  #f4f4fd;
+   padding: 120px 0;
 }
 .portfolio-title,
 .team-title 
@@ -244,7 +250,14 @@ align-items: center;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
 
+}
+
+.list-team
+{
+    display: flex;
+    gap: 24px;
 }
 
 .name-team 
@@ -255,6 +268,8 @@ align-items: center;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .prof-team
@@ -265,7 +280,16 @@ align-items: center;
         text-align: center;
  }
 .item-team
-{background-color: #FFFFFF;}
+{background-color: #FFFFFF;
+calc ((100 % - 72px) / 4);
+border-radius: 0 0 4px 4px;
+}
+
+.item-team-name
+{
+padding: 0px 0px 32px 0px;
+
+}
 /* #endregion s3 */
 
 /* #region s4 */
